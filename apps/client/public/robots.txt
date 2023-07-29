@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ahmedm.tech
+
+# Sitemaps
+Sitemap: https://ahmedm.tech/sitemap.xml

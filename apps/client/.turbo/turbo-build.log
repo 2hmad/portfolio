@@ -1,0 +1,68 @@
+
+> client@0.1.0 build
+> next build
+
+warn  - You have enabled experimental feature (appDir) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+info  - Thank you for testing `appDir` please leave your feedback at https://nextjs.link/app-feedback
+
+info  - Creating an optimized production build...
+info  - Compiled successfully
+info  - Linting and checking validity of types...
+info  - Collecting page data...
+info  - Generating static pages (0/7)
+info  - Generating static pages (1/7)
+info  - Generating static pages (3/7)
+info  - Generating static pages (5/7)
+info  - Generating static pages (7/7)
+info  - Finalizing page optimization...
+
+Route (app)                                Size     First Load JS
+┌ ○ /                                      179 B          81.6 kB
+├ ○ /blog                                  797 B           119 kB
+├ λ /blog/[title]                          179 B          81.6 kB
+├ ○ /favicon.ico                           0 B                0 B
+├ ○ /projects                              2.97 kB         121 kB
+└ ○ /resume                                179 B          81.6 kB
++ First Load JS shared by all              75.8 kB
+  ├ chunks/139-18c1423401ee112f.js         23.5 kB
+  ├ chunks/2443530c-b397732e99f9a5c9.js    50.5 kB
+  ├ chunks/main-app-d8e00fa9b7af0ce6.js    214 B
+  └ chunks/webpack-26a2595c91f11ba0.js     1.67 kB
+
+Route (pages)                              Size     First Load JS
+─ ○ /404                                   178 B          85.9 kB
++ First Load JS shared by all              85.7 kB
+  ├ chunks/main-741e0e7b6dd3d6f3.js        83.9 kB
+  ├ chunks/pages/_app-c544d6df833bfd4a.js  192 B
+  └ chunks/webpack-26a2595c91f11ba0.js     1.67 kB
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
+
+> client@0.1.0 postbuild
+> next-sitemap
+
+✨ [next-sitemap] Loading next-sitemap config: file:///home/ahmed/projects/portfolio/apps/client/next-sitemap.config.js
+✅ [next-sitemap] Generation completed
+┌───────────────┬────────┐
+│    (index)    │ Values │
+├───────────────┼────────┤
+│ indexSitemaps │   1    │
+│   sitemaps    │   1    │
+└───────────────┴────────┘
+-----------------------------------------------------
+ SITEMAP INDICES 
+-----------------------------------------------------
+
+   ○ https://ahmedm.tech/sitemap.xml
+
+
+-----------------------------------------------------
+ SITEMAPS 
+-----------------------------------------------------
+
+   ○ https://ahmedm.tech/sitemap-0.xml
+
+

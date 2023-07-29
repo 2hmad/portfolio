@@ -1,0 +1,45 @@
+.home-page {
+  .container {
+    .home-page__content {
+      max-width: 900px;
+      margin: 0 auto;
+
+      .name {
+        font-size: 60px;
+        font-weight: 900;
+        margin: 2rem 0 1.5rem;
+        position: relative;
+        letter-spacing: -1.1px;
+      }
+
+      .briefs {
+        line-height: 2.5em;
+        color: $secondary;
+
+        p {
+          margin-bottom: 1rem;
+        }
+      }
+
+      .social-icons {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        a {
+          display: flex;
+        }
+
+        svg {
+          width: 17px;
+          fill: #545454;
+          transition: 0.4s;
+
+          &:hover {
+            scale: 1.1;
+          }
+        }
+      }
+    }
+  }
+}
