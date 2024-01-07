@@ -32,21 +32,22 @@ const ResumePage = () => {
             Reach out to me via my{" "}
             <a href="mailto:ahmed_noreldin@outlook.com">Contact</a> .{" "}
             <a
-              href="https://drive.google.com/file/d/10gSq0U5v1QRk7sU2pDNaHIHaqJ_c8Vpu/view?usp=sharing"
+              href="https://drive.google.com/file/d/1cJ-wdKFmF5qoIpjjkFClgMUgffwcRGTY/view?usp=sharing"
               target="_blank"
             >
               View
             </a>{" "}
             /{" "}
-            <a href="https://drive.google.com/file/d/10gSq0U5v1QRk7sU2pDNaHIHaqJ_c8Vpu/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1cJ-wdKFmF5qoIpjjkFClgMUgffwcRGTY/view?usp=sharing">
               Download
             </a>{" "}
             my resume.
           </p>
           <iframe
-            src="https://drive.google.com/file/d/10gSq0U5v1QRk7sU2pDNaHIHaqJ_c8Vpu/preview"
+            src="https://drive.google.com/file/d/1cJ-wdKFmF5qoIpjjkFClgMUgffwcRGTY/preview"
             allow="autoplay"
             loading="lazy"
+            className="darkmode-ignore"
           ></iframe>
         </div>
       </div>

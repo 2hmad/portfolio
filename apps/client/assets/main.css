@@ -7,6 +7,16 @@
   font-family: "Outfit", sans-serif;
 }
 
+.darkmode--activated {
+  background: #000;
+  color: #fff;
+}
+
+.darkmode--activated p,
+.darkmode--activated li {
+  color: #000;
+}
+
 a {
   color: #545454;
   text-decoration: none;
@@ -30,6 +40,7 @@ a {
   border: none;
   cursor: pointer;
   transition: 0.4s;
+  isolation: isolate;
 }
 .btn-primary:hover {
   background: #5856d6;
@@ -114,7 +125,8 @@ a {
 .project-preview-sidebar .sidebar-container .project-preview-sidebar__content .project-image {
   width: 100%;
   height: 350px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .project-preview-sidebar .sidebar-container .project-preview-sidebar__content .tags {
   list-style: none;
@@ -130,7 +142,9 @@ a {
   border-radius: 5px;
   border: none;
   transition: 0.4s;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .project-preview-sidebar .sidebar-container .project-preview-sidebar__content .website-link, .project-preview-sidebar .sidebar-container .project-preview-sidebar__content .github-link {
   color: #0b0c15;
@@ -200,7 +214,9 @@ a {
   cursor: pointer;
   color: #545454;
   transition: all 0.3s ease 0s;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .projects-page .container .projects-page__content .navs .nav.active {
   background: #343a40;
@@ -216,34 +232,28 @@ a {
   animation-name: fadeInUp;
   -webkit-animation-name: fadeInUp;
   -webkit-animation-fill-mode: both;
-  column-gap: 1.5em;
+  -moz-column-gap: 1.5em;
+       column-gap: 1.5em;
 }
 @media only screen and (min-width: 1024px) {
   .projects-page .container .projects-page__content .grid-cards {
-    column-count: 2;
+    -moz-column-count: 2;
+         column-count: 2;
   }
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
   .projects-page .container .projects-page__content .grid-cards {
-    column-count: 1;
+    -moz-column-count: 1;
+         column-count: 1;
   }
 }
 @media only screen and (max-width: 767px) and (min-width: 540px) {
   .projects-page .container .projects-page__content .grid-cards {
-    column-count: 1;
+    -moz-column-count: 1;
+         column-count: 1;
   }
 }
 @keyframes fadeInUp {
-  from {
-    margin-top: 4rem;
-    opacity: 0;
-  }
-  to {
-    margin-top: 1.5em;
-    opacity: 1;
-  }
-}
-@-webkit-keyframes fadeInUp {
   from {
     margin-top: 4rem;
     opacity: 0;
@@ -272,7 +282,8 @@ a {
   margin: 0 0 1.5em;
   position: relative;
   cursor: pointer;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-color: #f4f1ee;
   background-position: center center;
   background-repeat: no-repeat;
@@ -281,7 +292,8 @@ a {
   display: flex;
   align-items: flex-end;
   border-radius: 9px;
-  break-inside: avoid;
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
 }
 .projects-page .container .projects-page__content .grid-cards .card::before {
   content: "";
@@ -303,7 +315,8 @@ a {
 }
 .projects-page .container .projects-page__content .grid-cards .card img {
   position: absolute;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100% !important;
   height: 100% !important;
   left: 0 !important;
@@ -401,7 +414,9 @@ a {
   cursor: pointer;
   color: #545454;
   transition: all 0.3s ease 0s;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .blog-page .container .blog-page__content .navs .nav.active {
   background: #343a40;
@@ -417,34 +432,28 @@ a {
   animation-name: fadeInUp;
   -webkit-animation-name: fadeInUp;
   -webkit-animation-fill-mode: both;
-  column-gap: 1.5em;
+  -moz-column-gap: 1.5em;
+       column-gap: 1.5em;
 }
 @media only screen and (min-width: 1024px) {
   .blog-page .container .blog-page__content .grid-cards {
-    column-count: 2;
+    -moz-column-count: 2;
+         column-count: 2;
   }
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
   .blog-page .container .blog-page__content .grid-cards {
-    column-count: 1;
+    -moz-column-count: 1;
+         column-count: 1;
   }
 }
 @media only screen and (max-width: 767px) and (min-width: 540px) {
   .blog-page .container .blog-page__content .grid-cards {
-    column-count: 1;
+    -moz-column-count: 1;
+         column-count: 1;
   }
 }
 @keyframes fadeInUp {
-  from {
-    margin-top: 4rem;
-    opacity: 0;
-  }
-  to {
-    margin-top: 1.5em;
-    opacity: 1;
-  }
-}
-@-webkit-keyframes fadeInUp {
   from {
     margin-top: 4rem;
     opacity: 0;
@@ -473,7 +482,8 @@ a {
   margin: 0 0 1.5em;
   position: relative;
   cursor: pointer;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-color: #f4f1ee;
   background-position: center center;
   background-repeat: no-repeat;
@@ -482,7 +492,8 @@ a {
   display: flex;
   align-items: flex-end;
   border-radius: 9px;
-  break-inside: avoid;
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
 }
 .blog-page .container .blog-page__content .grid-cards .card::before {
   content: "";
@@ -504,7 +515,8 @@ a {
 }
 .blog-page .container .blog-page__content .grid-cards .card img {
   position: absolute;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100% !important;
   height: 100% !important;
   left: 0 !important;
@@ -564,12 +576,10 @@ a {
   letter-spacing: -1.1px;
 }
 .blog-post-page .container .blog-post-page__content .head .post-subtitle {
-  color: hsl(215.4deg, 16.3%, 46.9%);
+  color: hsl(215.4, 16.3%, 46.9%);
   font-size: 1.125rem;
 }
 .blog-post-page .container .blog-post-page__content .post-content {
   margin-top: 2.5rem;
   width: 100%;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

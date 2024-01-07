@@ -1,6 +1,6 @@
+import { GithubIcon, LinkedinIcon, TwitterIcon } from "@/components/Icons";
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
-import { GithubIcon, LinkedinIcon, TwitterIcon } from "@/components/Icons";
 
 export const metadata = {
   title: "Ahmed M. Ibrahim",
@@ -11,7 +11,7 @@ export const metadata = {
     description:
       "I'm a software engineer based in Egypt. I'm passionate about building SaaS products and open source projects.",
     type: "website",
-    url: "https://ahmedm.tech/",
+    url: "https://ahmednoreldin.com",
     site_name: "Ahmed M. Ibrahim",
     images: ["https://ahmedm.tech/images/Ahmed-Mohamed-Logo.jpg"],
   },
@@ -32,21 +32,33 @@ const Home = () => {
           <h1 className="name">I'm Ahmed M. Ibrahim</h1>
           <div className="briefs">
             <p>
-              I'm a software engineer based in Egypt. I'm passionate about
-              building SaaS products and open source projects.
-            </p>
-            <p>
-              I'm currently working as a senior software engineer at{" "}
-              <a href="https://orcha.systems/" target="_blank">
-                <button className="btn btn-primary">Orcha Systems</button>
+              Based in Egypt, my professional journey is rooted in software
+              engineering. My passion lies in creating innovative SaaS products
+              and intricate microservices projects. Alongside this, I am
+              dedicated to educating others as a programming instructor at{" "}
+              <a
+                href="https://www.udemy.com/user/ahmed-mohamed-1"
+                target="_blank"
+              >
+                <button className="btn btn-primary">Udemy</button>
               </a>
             </p>
             <p>
+              In my current roles, I am making significant strides as a Senior
+              Software Engineer at{" "}
+              <a href="https://tawabel.com" target="_blank">
+                <button className="btn btn-primary">Bayt Al Tawabel</button>
+              </a>{" "}
+              Additionally, I hold the esteemed positions of Chief Technology
+              Officer and Co-Founder at{" "}
+              <a href="https://goplace.io" target="_blank">
+                <button className="btn btn-primary">GoPlace</button>
+              </a>{" "}
+              where I continue to drive technological advancements and business
+              growth.
+            </p>
+            <p>
               View my{" "}
-              <Link href="/projects">
-                <button className="btn btn-primary">Projects</button>
-              </Link>{" "}
-              ,{" "}
               <Link href="/resume">
                 <button className="btn btn-primary">Resume</button>
               </Link>{" "}
