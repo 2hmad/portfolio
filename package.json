@@ -1,21 +1,21 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "turbo run dev",
-    "build": "turbo run build",
-    "start": "node apps/api/dist/main"
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "turbo": "^1.10.12"
-  },
-  "workspaces": [
-    "apps/*"
-  ]
+  "dependencies": {
+    "@heroicons/react": "^2.0.17",
+    "axios": "^1.4.0",
+    "framer-motion": "^10.12.4",
+    "next": "^13.3.1",
+    "next-sitemap": "^4.0.9",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
 }
