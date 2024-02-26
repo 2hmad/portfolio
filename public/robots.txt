@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://ahmedm.tech
+Host: https://ahmednoreldin.com
 
 # Sitemaps
-Sitemap: https://ahmedm.tech/sitemap.xml
+Sitemap: https://ahmednoreldin.com/sitemap.xml
